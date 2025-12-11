@@ -1,0 +1,8 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"C1","1","100uF","","","","EEUHD1C101:CAPPRD250W50D500H1100",""
+"Q1","1","IRLZ34NPBF","","","","IRLZ34N:IRLZ34NPBF_ENG",""
+"S1,S2,S3,S4,S5","5","TL1105F160Q","","","","TL1105F160Q:SW_TL1105F160Q",""
+"U2","1","DM-OLED096-636","","","","DM-OLED096-636:MODULE_DM-OLED096-636",""
+"U3","1","uSD_Card_Reader","","","","Persona;Library:1_micro_SD_card_reader",""
+"U4","1","3 watt 8 ohm speaker","","","","Persona;Library:2_3W_8O_Speaker",""
+"U5","1","ESP32-DEVKIT-V1","","","","ESP32-DEVKIT-V1:MODULE_ESP32_DEVKIT_V1",""
