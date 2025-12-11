@@ -1,0 +1,138 @@
+(footprint "CAPPRD250W50D500H1100"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.8833 -3.835 0)
+		(layer "F.SilkS")
+		(uuid "8d356445-0f37-4ed0-8a8f-943980a4162e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPPRD250W50D500H1100"
+		(at 11.0433 3.815 0)
+		(layer "F.Fab")
+		(uuid "915e3ef8-5968-45a6-be39-13d735034c99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8503f16f-459e-46cb-9757-c4680d1546eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63f5ee0c-67f5-41fd-a20e-16b2284a803d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -3.25 0)
+		(end -3.15 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e906a875-6472-41dc-840a-965bc5fc54ae")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5c5a54d0-7dc3-485f-af2f-d3a54fb335c3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0051f54b-62da-403e-b239-a3c8e1e492f8")
+	)
+	(fp_circle
+		(center -3.25 0)
+		(end -3.15 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0a81fd8c-1dba-4ceb-9295-071206e195b4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cf166410-c12d-4069-897a-4b628df8c5b9")
+	)
+	(pad "N" thru_hole circle
+		(at 1.25 0)
+		(size 1.1 1.1)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d078cb3e-14e7-4542-a94f-0f09c05f34cb")
+	)
+	(pad "P" thru_hole rect
+		(at -1.25 0)
+		(size 1.1 1.1)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "09c1ebfc-9fcb-4088-a595-264c255b0d39")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Footprints, symbols, 3D models n stuff/100 uF cap/EEUHD1C101/EEUHD1C101.step"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
